@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background1 {
+    background-image: url('bg_img.jpg'); /* Replace 'background.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-button {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%; /* Make it circular */
+    background-color: rgba(200, 255, 200, .4); /* Semi-transparent background */
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.circle-button:hover {
+    background-color: rgba(0, 25, 0, .8)
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
